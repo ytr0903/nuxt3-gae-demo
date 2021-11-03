@@ -12,16 +12,16 @@
     <div class="box menu">
       <div class="menu-label">Path List</div>
       <div class="menu-list">
-        <nuxt-link class="menu-item" to="/1/">1</nuxt-link>
-        <nuxt-link class="menu-item" to="/2/">2</nuxt-link>
-        <nuxt-link class="menu-item" to="/3/">3</nuxt-link>
-        <nuxt-link class="menu-item" to="/4/">4</nuxt-link>
-        <nuxt-link class="menu-item" to="/5/">5</nuxt-link>
-        <nuxt-link class="menu-item" to="/6/">6</nuxt-link>
-        <nuxt-link class="menu-item" to="/7/">7</nuxt-link>
-        <nuxt-link class="menu-item" to="/8/">8</nuxt-link>
-        <nuxt-link class="menu-item" to="/9/">9</nuxt-link>
-        <nuxt-link class="menu-item" to="/10/">10</nuxt-link>
+        <a class="menu-item" href="/1/">1</a>
+        <a class="menu-item" href="/2/">2</a>
+        <a class="menu-item" href="/3/">3</a>
+        <a class="menu-item" href="/4/">4</a>
+        <a class="menu-item" href="/5/">5</a>
+        <a class="menu-item" href="/6/">6</a>
+        <a class="menu-item" href="/7/">7</a>
+        <a class="menu-item" href="/8/">8</a>
+        <a class="menu-item" href="/9/">9</a>
+        <a class="menu-item" href="/10/">10</a>
       </div>
     </div>
   </div>
