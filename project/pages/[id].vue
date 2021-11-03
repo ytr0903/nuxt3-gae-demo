@@ -11,6 +11,22 @@ const { data: serverDate } = await useAsyncData("date", async () => {
   await new Promise((resolve) => setTimeout(resolve, 1000));
   return date;
 });
+
+useMeta({
+  title: `${params.id} - Nuxt 3 x GAE Demo Page`,
+  meta: [
+    { property: "og:title", content: `${params.id} - Nuxt 3 x GAE Demo Page` },
+    { property: "og:description", content: `IDが${params.id}のページです` },
+    {
+      property: "twitter:title",
+      content: `${params.id} - Nuxt 3 x GAE Demo Page`,
+    },
+    {
+      property: "twitter:description",
+      content: `IDが${params.id}のページです`,
+    },
+  ],
+});
 </script>
 
 <template>
