@@ -4,6 +4,6 @@ export default (
   res: ServerResponse,
   next: () => void
 ) => {
-  res.setHeader("Cache-Control", "public, max-age=600, s-maxage=3000");
+  res.setHeader("Cache-Control", "public, max-age=86400");
   next();
 };
